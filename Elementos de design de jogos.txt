@@ -1,0 +1,94 @@
+Elementos de design de jogos
+
+Jogo de corrida multiplayer:
+
+*Personagens:
+PC -> Playing Character (Personagem jogável)
+NPC -> Non-Playing Character (Personagem não jogável)
+- Carros (PC)
+- Obstáculos (NPC)
+- Gasolina (NPC)
+- Moedas (NPC)
+
+*Objetivos:
+- Chegar na linha final (em primeiro lugar)
+- Conseguir a maior pontuação
+- Não deixar o carro explodir
+- Não deixar a gasolina acabar
+
+*Regras:
+- Não bater no outro veículo
+- A vida do carro diminui quando ele bate no outro carro ou nos obstáculos
+- O combustível diminui enquanto o carro está andando
+- O combustível aumenta quando a gente pega gasolina
+- O jogo só começa quando os dois jogadores estão online
+- Perdemos o jogo quando o carro explode ou acaba a gasolina
+- A pontuação aumenta quando a gente pega moedas
+
+*Equilíbrio:
+- Combustível: vai diminuindo enquanto a gente anda, MAS, podemos pegar mais
+	       combustível no caminho.
+
+*Adaptabilidade:
+- Obstáculos na pista
+
+*Elementos do acaso:
+- Combustível e as moedas aparecem aleatoriamente
+
+*Elementos de habilidade:
+- Habilidade do jogador de manobrar o carro
+  (desviar dos obstáculos, do oponente e pegar gasolina)
+
+*Feedback:
+- Avaliação do jogo
+- Sistema de pontuação
+- Sistema de vida
+- Sistema de combustível
+- Linha de chegada
+
+*História:
+- Aposta de corrida e ganha dinheiro
+- Velozes e Furiosos
+- Need for Speed
+
+
+Stumble Guys:
+
+*Personagens:
+- Manequins (PC - de vez em quando, NPC -> bot)
+- Obstáculos (NPC)
+
+*Objetivos:
+- Chegar ao final
+- Sobreviver
+- Jogos de equipes
+
+*Regras:
+- Dependem de cada objetivo
+- Num geral, não tocar no obstáculo
+- Não caia do cenário
+- Não seja eliminado
+
+*Equilíbrio:
+- Obstáculos (para não ser tão fácil)
+
+*Adaptabilidade:
+- A cada etapa, mais pessoas são eliminadas
+
+*Elementos do acaso:
+- Dificuldade do jogo: se você cair, pode morrer, podem aparecer
+		       elementos que vão te atrapalhar
+- Jogadores
+
+*Elementos de habilidade:
+- Se ganhar todas as rodadas
+- Classificação
+- Velocidade
+
+*Feedback:
+- Classifação
+- Xp/recompensas
+
+
+*História:
+- Torneio geral de sobrevivência e velocidade
